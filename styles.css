@@ -49,3 +49,19 @@
   background: #ffdcff;
 }
 
+/* Only showing new stuff... */
+#feets {
+  display: flex;
+  width: 30vmin;
+}
+
+#feet {
+  width: 7.5vmin;
+  height: 6vmin;
+  border: 0.5vmin solid black;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top: 0;
+  background: #ffdcff;
+}
+
