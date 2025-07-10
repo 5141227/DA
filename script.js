@@ -113,7 +113,7 @@ function hello(event) {
     alert(3 * event.pageX / window.innerWidth)
 }
 
-function hello(event) {
+function (event) {
     /* Find the element by id */
     const element = document.getElementById("pupil");
     /* Find the new "left" value*/
@@ -122,9 +122,9 @@ function hello(event) {
     element.style["left"] = new + "vmin";
 }
 
-document.addEventListener('click', hello(event));
+document.addEventListener('click');
 
-function hello(event) {
+function (event) {
     /* Find the element by id */
     const element = document.getElementById("pupil");
     /* Find the new "x" value*/
@@ -136,4 +136,4 @@ function hello(event) {
     element.style["top"] = y + "vmin";
 }
 
-document.addEventListener('click', hello(event));
+document.addEventListener('click',);
