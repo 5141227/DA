@@ -20,3 +20,15 @@ document.addEventListener('click', hello);
 }
 
 document.addEventListener('click', hello(event));
+
+function hello(event) {
+  alert(event.pageX)
+}
+
+function hello(event) {
+  /* Find the element by id */
+  const element = document.getElementById("name");
+  /* Change the "left" value of the element's style */
+  element.style["left"] = event.pageX + "px"; /* x is given in "px" */
+  alert(event.pageX + "px"); /* So we can see it */
+}
